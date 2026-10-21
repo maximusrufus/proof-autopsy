@@ -1,0 +1,14 @@
+{
+ "id": "R12",
+ "source": {
+  "repo": "github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path": "preprints/Incompressible-Box-Transport-and-Finite-Computation-September-27-2026/manuscript.pdf"
+ },
+ "step_location": "Argument named in the later edition's revision note: This version supplies effective torus-projection and common-clock decay estimates, including the projected-force and pressure bounds",
+ "ground_truth": "REVISED-clarification",
+ "ground_truth_reference": [
+  "Revision note in the openai/math history: the later edition (Incompressible-Box-Transport-and-Finite-Computation-October-6-2026) states it supplies or repairs this argument."
+ ],
+ "label_confidence_notes": "Medium confidence: the later edition's revision note says it supplies or adds an argument; it does not document a false step."
+}

@@ -1,0 +1,14 @@
+{
+ "id": "W2",
+ "source": {
+  "repo": "github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path": "preprints/Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026/manuscript.pdf"
+ },
+ "step_location": "Adaptation of the W1 stabilization-trace construction; the withdrawal notice gives no separate step location.",
+ "ground_truth": "FLAWED-documented",
+ "ground_truth_reference": [
+  "Withdrawal notice in openai/math dated 2026-10-06, which cites the W1 construction as the source of the gap"
+ ],
+ "label_confidence_notes": "High confidence that the paper is unproved (documented withdrawal). The notice does not claim the statement is false."
+}

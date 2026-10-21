@@ -1,0 +1,16 @@
+{
+ "id": "W1",
+ "source": {
+  "repo": "github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path": "preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/paper.pdf"
+ },
+ "step_location": "Lemma 3.6, eq. (3.6): sign assigned to the reverse stabilization trace (k=4: manuscript uses +1; documented -1), so I_new = -2m, not 0, and the Eliashberg-Murphy cancellation hypothesis fails.",
+ "ground_truth": "FLAWED-documented",
+ "ground_truth_reference": [
+  "J. G. George, Zenodo doi:10.5281/zenodo.23263564 (2026-10-09): oriented local calculation giving sign -1 for the reverse trace and count -2m",
+  "chokmah-me/fragile-proof-audit, docs/audits/oai-weil-sign.md (2026-10-08)",
+  "Withdrawal notice in openai/math dated 2026-10-06"
+ ],
+ "label_confidence_notes": "High confidence: documented withdrawal, corroborated by the public prior work cited."
+}

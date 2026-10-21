@@ -1,0 +1,14 @@
+{
+ "id": "R7",
+ "source": {
+  "repo": "github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path": "preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026/main.pdf"
+ },
+ "step_location": "Argument named in the later edition's revision note: This version supplies base-presentation and multiplier-ideal arguments for the induction, including the adjoint pullback and contraction-descent steps",
+ "ground_truth": "REVISED-clarification",
+ "ground_truth_reference": [
+  "Revision note in the openai/math history: the later edition (Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026) states it supplies or repairs this argument."
+ ],
+ "label_confidence_notes": "Medium confidence: the later edition's revision note says it supplies or adds an argument; it does not document a false step."
+}

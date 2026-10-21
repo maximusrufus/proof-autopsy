@@ -1,0 +1,14 @@
+{
+ "id": "R3",
+ "source": {
+  "repo": "github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path": "preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026/main.pdf"
+ },
+ "step_location": "Argument named in the later edition's revision note: This version corrects the transmission and boundary-collar arguments, replaces excursion convergence with a signed-loop-soup/GMC argument tied to the same limiting field, and updates the companion-paper citation",
+ "ground_truth": "FLAWED-gap",
+ "ground_truth_reference": [
+  "Revision note in the openai/math history: the later edition (The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026) states it supplies or repairs this argument."
+ ],
+ "label_confidence_notes": "Medium confidence: the revision note documents a real change but does not name a specific false statement."
+}

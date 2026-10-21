@@ -1,0 +1,14 @@
+{
+ "id": "R6",
+ "source": {
+  "repo": "github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "path": "preprints/Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-5-2026/paper.pdf"
+ },
+ "step_location": "Argument named in the later edition's revision note: This version adds carrier-positivity and multiplier-ideal arguments and revises the contraction induction for ordinary negative-ray programs",
+ "ground_truth": "REVISED-clarification",
+ "ground_truth_reference": [
+  "Revision note in the openai/math history: the later edition (Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-6-2026) states it supplies or repairs this argument."
+ ],
+ "label_confidence_notes": "Medium confidence: the later edition's revision note says it supplies or adds an argument; it does not document a false step."
+}
