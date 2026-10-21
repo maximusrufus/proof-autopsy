@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "Proof Autopsy: a benchmark of mathematics manuscripts with publicly documented flaws"
+authors:
+  - name: "Trilatic"
+repository-code: "https://github.com/maximusrufus/proof-autopsy"
+license: CC-BY-4.0
+version: "0.1.0"
+date-released: "2026-10-20"

@@ -1,8 +1,30 @@
 # Proof Autopsy
 
-Can your verifier find the flaw that killed the proof? A small benchmark of mathematics manuscripts with publicly documented flaws or revisions.
+[![ci](https://github.com/maximusrufus/proof-autopsy/actions/workflows/ci.yml/badge.svg)](https://github.com/maximusrufus/proof-autopsy/actions/workflows/ci.yml)
+[![code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
+[![python](https://img.shields.io/badge/python-3.8%2B-3776AB.svg?logo=python&logoColor=white)](scorer.py)
+[![items](https://img.shields.io/badge/items-12-orange.svg)](items)
+[![deps](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](scorer.py)
 
-Purpose: measure how a proof verifier (human or model) behaves on manuscripts whose flaw or later revision is documented in public sources. Every label comes from a public withdrawal notice or revision note. Manuscripts are not redistributed; each item links to a public commit.
+> **Can your verifier find the flaw that killed the proof?**
+
+A small benchmark of mathematics manuscripts with publicly documented flaws or revisions. Every label comes from a public withdrawal notice or revision note.
+
+## Quick start
+```bash
+git clone https://github.com/maximusrufus/proof-autopsy && cd proof-autopsy
+python scorer.py --example          # toy run
+# give QUESTIONS/<id>.md to your verifier, collect answers.jsonl, then:
+python scorer.py answers.jsonl
+```
+
+## At a glance
+| Label | Items | Public source |
+|---|---|---|
+| `FLAWED-documented` | W1-W3 | Withdrawal notice |
+| `FLAWED-gap` | R3, R4 | Revision note: corrects or repairs |
+| `REVISED-clarification` | R1, R2, R6, R7, R12 | Revision note: adds or clarifies |
 
 ## Contents
 - `items/<id>/case.json` - ground truth (12 items)
@@ -29,3 +51,9 @@ Output: miss rate on flawed items (NO-FLAW on FLAWED-*) and flag rate on clarifi
 
 ## Limitations
 Small n (12 items), so intervals are wide. Labels come from public notices and revision notes rather than independent proofs. Item selection is not a random sample of the literature. The scorer also accepts `CORRECT` and `EXTRACTION-ARTIFACT` labels for users who add their own items.
+
+## Contributing
+New items are welcome via pull request: each needs a public commit link and a public citation for its label.
+
+## Citation
+See [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button).
